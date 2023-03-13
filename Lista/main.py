@@ -35,11 +35,14 @@ print('   ', notas);
 
 
 
-abc = 'aei';
+abc = 'ae';
 vogais = ['a', 'e', 'i', 'o', 'u'];
 
-for abc in vogais:
-    if(abc == vogais ):
-        vogais.remove(abc)
+count = 0
+for x in vogais:
+    if(abc == vogais[count]):
+        vogais.remove(vogais[count])
+        count += 1
 
 print(abc)
+print(vogais)
